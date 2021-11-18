@@ -422,3 +422,72 @@ main{
         }
     }
 }
+
+@media screen and (max-width: 980px){
+    header{
+        .inner{
+            h1{
+                font-size: 22px;
+            }
+            ul li{
+                &:nth-of-type(1){
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+                h2{
+                    font-size: 14px;
+                }
+                h3{
+                    font-size: 22px;
+                }
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    main{
+        .inner{
+            section{
+                article{
+                    &.item-sizer{
+                        width: 33.333%;
+                    }
+                    &.item{
+                        width: 33.333%;
+
+                        .article_inner{
+                            >p{
+                                max-height: 10vh;
+                                overflow: hidden;
+                            }
+                            >i{
+                                bottom: 30px;
+                            }
+                        }
+                        &.width2{
+                            width: 66.666%;
+
+                            .category i{
+                                bottom: 30px;
+                            }
+                        }
+                        &:nth-of-type(5), &:nth-of-type(9){
+                            .article_inner div i{
+                                bottom: 30px;
+                            }
+                        }
+                        &:nth-of-type(9){
+                            width: 66.666%;
+                        }
+                        &:nth-of-type(17){
+                            .article_inner .title h1{font-size: 24px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
