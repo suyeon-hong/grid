@@ -178,6 +178,15 @@ main {
               background: #f0b008;
               padding: 15px;
               height: 50%; }
+              main .inner section article.item:nth-of-type(5) .article_inner div::after, main .inner section article.item:nth-of-type(9) .article_inner div::after {
+                content: '';
+                display: block;
+                border-bottom: 10px solid #f0b008;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                position: absolute;
+                top: -10px;
+                right: 20px; }
               main .inner section article.item:nth-of-type(5) .article_inner div h1, main .inner section article.item:nth-of-type(9) .article_inner div h1 {
                 font: 12px/1 'arial';
                 color: #555;
