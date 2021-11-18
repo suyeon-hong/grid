@@ -9,4 +9,52 @@ ul, ol {
 a {
   text-decoration: none; }
 
+header {
+  width: 100%;
+  background: #f3e13e; }
+  header .inner {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto; }
+
+main {
+  width: 100%;
+  background: #393939; }
+  main .inner {
+    width: 1200px;
+    margin: 0 auto; }
+    main .inner section {
+      width: 100%;
+      padding-bottom: 50px; }
+      main .inner section::after {
+        content: '';
+        display: block;
+        clear: both; }
+      main .inner section article {
+        float: left;
+        width: 16.666%;
+        height: 20vh; }
+        main .inner section article.item-sizer {
+          width: 16.666%;
+          height: 0;
+          opacity: 0; }
+        main .inner section article.item {
+          padding: 7px 7px 0 0; }
+          main .inner section article.item .article_inner {
+            width: 100%;
+            height: 100%;
+            background: #bbb; }
+          main .inner section article.item.width2 {
+            width: 33.333%; }
+          main .inner section article.item.height2 {
+            height: 40vh; }
+          main .inner section article.item:nth-of-type(3) .article_inner {
+            background: #f0b008; }
+          main .inner section article.item:nth-of-type(5) .article_inner {
+            background: #f0b008; }
+          main .inner section article.item:nth-of-type(9) .article_inner {
+            background: #f0b008; }
+          main .inner section article.item:nth-of-type(15) .article_inner {
+            background: #f0b008; }
+
 /*# sourceMappingURL=style.css.map */
