@@ -1,4 +1,5 @@
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;300;500;700;900&family=Pathway+Gothic+One&display=swap');
 @import 'reset';
 
 header{
@@ -10,9 +11,9 @@ header{
         margin: 0 auto;
 
         h1{
-            font: bold 30px/1 'arial';
+            font: 900 26px/1 'M PLUS 1';
             color: #111;
-            padding: 20px 0 30px;
+            padding: 10px 0 30px;
         }
         ul{
             display: flex;
@@ -26,19 +27,24 @@ header{
                     text-align: center;
                 }
                 &:nth-of-type(1){
+                    h2{margin-bottom: 0;}
                     h3{
-                        font-size: 18px;
+                        font: normal 24px/1 'Pathway Gothic One';
                         color: #111;
+                        letter-spacing: normal;
+                        text-shadow: none;
                     }
                 }
                 h2{
-                    font: 12px/1 'arial';
+                    font: normal 16px/1 'Pathway Gothic One';
                     color: #222;
                     margin-bottom: 5px;
                 }
                 h3{
-                    font: 26px/1 'arial';
+                    font: bold 30px/1 'Pathway Gothic One';
                     color: #fff;
+                    letter-spacing: 2px;
+                    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
                 }
                 i{
                     font-size: 30px;
@@ -87,16 +93,16 @@ main{
                         padding: 15px;
 
                         >h1{
-                            font: 12px/1 'arial';
+                            font: 16px/1 'Pathway Gothic One';
                             color: #fff;
                             margin-bottom: 10px;
                         }
                         >h2{
-                            font: 16px/1 'arial';
+                            font: 28px/1 'Pathway Gothic One';
                             color: #333;
                         }
                         >p{
-                            font: 12px/1.2 'arial';
+                            font: 12px/1.6 'M PLUS 1';
                             color: #fff;
                         }
                         >span{
@@ -104,7 +110,7 @@ main{
                             position: absolute;
                             bottom: 15px;
                             left: 15px;
-                            font: 12px/1 'arial';
+                            font: 300 12px/1 'M PLUS 1';
                             color: #fff;
                         }
                         >i{
@@ -118,7 +124,7 @@ main{
                             margin-top: 20px;
 
                             li{
-                                font: 12px/1.6 'arial';
+                                font: 12px/1.6 'M PLUS 1';
                                 color: #fff;
 
                                 &::before{
@@ -149,11 +155,11 @@ main{
                             justify-content: space-between;
 
                             h1{
-                                font: 14px/1 'arial';
+                                font: 14px/1 'Pathway Gothic One';
                                 color: #fff;
                             }
                             p{
-                                font: 12px/1 'arial';
+                                font: 300 12px/1 'M PLUS 1';
                                 color: #fff;
                             }
                             i{
@@ -172,13 +178,14 @@ main{
                             top: 25%;
                             right: 0;
                             padding: 10px;
+                            padding-top: 0;
 
                             em{
-                                font: 14px/1 'arial';
+                                font: 14px/1 'Pathway Gothic One';
                                 color: #fff;
                             }
                             h1{
-                                font: 20px/1 'arial';
+                                font: 27px/1 'Pathway Gothic One';
                                 color: #fff;
                                 margin-top: 5px;
                             }
@@ -197,6 +204,7 @@ main{
                             bottom: 0;
                             right: auto;
                             left: 0;
+                            padding-top: 10px;
                         }
                     }
                     &:nth-of-type(2), &:nth-of-type(17){
@@ -248,12 +256,12 @@ main{
                                     right: 20px;
                                 }
                                 h1{
-                                    font: 12px/1 'arial';
+                                    font: 16px/1 'Pathway Gothic One';
                                     color: #555;
                                     margin-bottom: 10px;
                                 }
                                 h2{
-                                    font: 16px/1 'arial';
+                                    font: 28px/1 'Pathway Gothic One';
                                     color: #333;
                                 }
                                 span{
@@ -261,7 +269,7 @@ main{
                                     position: absolute;
                                     bottom: 15px;
                                     left: 15px;
-                                    font: 12px/1 'arial';
+                                    font: 300 12px/1 'M PLUS 1';
                                     color: #555;
                                 }
                                 i{
