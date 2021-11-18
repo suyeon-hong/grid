@@ -142,6 +142,13 @@ main{
                     &.width2{
                         width: 33.333%;
 
+                        .article_inner{padding:0}
+                        img{
+                            width: 50%;
+                            height: 100%;
+                            object-fit: cover;
+                            opacity: 0.6;
+                        }
                         .category{
                             width: 50.1%;
                             height: 100%;
@@ -194,6 +201,13 @@ main{
                     &.height2{
                         height: 40vh;
 
+                        .article_inner{padding:0}
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            opacity: 0.6;
+                        }
                         .category{
                             height: 25%;
                         }
@@ -237,7 +251,12 @@ main{
                         .article_inner{
                             background: #ecc051;
 
+                            img{
+                                height: 50%;
+                            }
                             div{
+                                width: 100%;
+                                height: 50%;
                                 position: absolute;
                                 left: 0;
                                 bottom: 0;
