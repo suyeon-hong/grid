@@ -46,31 +46,234 @@ main{
                         width: 100%;
                         height: 100%;
                         background: #bbb;
+                        position: relative;
+                        padding: 15px;
+
+                        >h1{
+                            font: 12px/1 'arial';
+                            color: #fff;
+                            margin-bottom: 10px;
+                        }
+                        >h2{
+                            font: 16px/1 'arial';
+                            color: #333;
+                        }
+                        >p{
+                            font: 12px/1.2 'arial';
+                            color: #fff;
+                        }
+                        >span{
+                            display: block;
+                            position: absolute;
+                            bottom: 15px;
+                            left: 15px;
+                            font: 12px/1 'arial';
+                            color: #fff;
+                        }
+                        >i{
+                            position: absolute;
+                            bottom: 15px;
+                            right: 15px;
+                            font-size: 12px;
+                            color: #fff;
+                        }
+                        ul{
+                            margin-top: 20px;
+
+                            li{
+                                font: 12px/1.6 'arial';
+                                color: #fff;
+
+                                &::before{
+                                    content: '';
+                                    display: inline-block;
+                                    width: 7px;
+                                    height: 7px;
+                                    border-radius: 50%;
+                                    border: 1px solid #fff;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
                     }
                     &.width2{
                         width: 33.333%;
+
+                        .category{
+                            width: 50.1%;
+                            height: 100%;
+                            background: #47C3B0;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            padding: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            h1{
+                                font: 14px/1 'arial';
+                                color: #fff;
+                            }
+                            p{
+                                font: 12px/1 'arial';
+                                color: #fff;
+                            }
+                            i{
+                                position: absolute;
+                                bottom: 15px;
+                                right: 15px;
+                                font-size: 12px;
+                                color: #fff;
+                            }
+                        }
+                        .title{
+                            display: inline-block;
+                            width: 60%;
+                            background: #35a796;
+                            position: absolute;
+                            top: 25%;
+                            right: 0;
+                            padding: 10px;
+
+                            em{
+                                font: 14px/1 'arial';
+                                color: #fff;
+                            }
+                            h1{
+                                font: 20px/1 'arial';
+                                color: #fff;
+                                margin-top: 5px;
+                            }
+                        }
                     }
                     &.height2{
                         height: 40vh;
-                    }
-                    &:nth-of-type(3){
-                        .article_inner{
-                            background: #f0b008;
+
+                        .category{
+                            height: 25%;
+                        }
+                        .title{
+                            width: 50%;
+                            height: 50%;
+                            top: auto;
+                            bottom: 0;
+                            right: auto;
+                            left: 0;
                         }
                     }
-                    &:nth-of-type(5){
+                    &:nth-of-type(2), &:nth-of-type(17){
                         .article_inner{
-                            background: #f0b008;
+                            background: #73daca;
                         }
                     }
-                    &:nth-of-type(9){
+                    &:nth-of-type(3), &:nth-of-type(15){
                         .article_inner{
                             background: #f0b008;
+
+                            h1, span, i{
+                                color: #555;
+                            }
                         }
                     }
-                    &:nth-of-type(15){
+                    &:nth-of-type(4), &:nth-of-type(11){
                         .article_inner{
-                            background: #f0b008;
+                            background: rgb(206, 149, 206);
+
+                            .category{
+                                background: rgb(185, 114, 185);
+                            }
+                            .title{
+                                background: rgb(163, 67, 163);
+                            }
+                        }
+                    }
+                    &:nth-of-type(5), &:nth-of-type(9){
+                        .article_inner{
+                            background: #ecc051;
+
+                            div{
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                background: #f0b008;
+                                padding: 15px;
+                                height: 50%;
+    
+                                h1{
+                                    font: 12px/1 'arial';
+                                    color: #555;
+                                    margin-bottom: 10px;
+                                }
+                                h2{
+                                    font: 16px/1 'arial';
+                                    color: #333;
+                                }
+                                span{
+                                    display: block;
+                                    position: absolute;
+                                    bottom: 15px;
+                                    left: 15px;
+                                    font: 12px/1 'arial';
+                                    color: #555;
+                                }
+                                i{
+                                    position: absolute;
+                                    bottom: 15px;
+                                    right: 15px;
+                                    font-size: 12px;
+                                    color: #555;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(6){
+                        .article_inner{
+                            background: rgb(235, 235, 51);
+
+                            .category{background: rgb(197, 197, 6);}
+                            .title{background: rgb(153, 153, 17);}
+                        }
+                    }
+                    &:nth-of-type(7), &:nth-of-type(14), &:nth-of-type(18){
+                        .article_inner{background: rgb(27, 179, 240);}
+                    }
+                    &:nth-of-type(8){
+                        .article_inner{
+                            background: #47C3B0;
+
+                            h2{
+                                color: #fff;
+                                font-size: 30px;
+                            }
+                            span{
+                                line-height: 1.6
+                            }
+                        }
+                    }
+                    &:nth-of-type(10){
+                        .article_inner{
+                            background: rgb(206, 149, 206);
+
+                            .category{
+                                background: rgb(226, 139, 204);
+                            }
+                            .title{
+                                background: rgb(179, 92, 157);
+                            }
+                        }
+                    }
+                    &:nth-of-type(13){
+                        .article_inner{
+                            background: #035677;
+                        }
+                    }
+                    &:nth-of-type(16){
+                        .article_inner{
+                            background: rgb(243, 218, 150);
+
+                            .category{background: rgb(247, 200, 100)}
+                            .title{background: rgb(228, 176, 64);}
                         }
                     }
                 }
