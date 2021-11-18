@@ -14,8 +14,32 @@ header {
   background: #f3e13e; }
   header .inner {
     width: 1200px;
-    height: 150px;
     margin: 0 auto; }
+    header .inner h1 {
+      font: bold 30px/1 'arial';
+      color: #111;
+      padding: 20px 0 30px; }
+    header .inner ul {
+      display: flex; }
+      header .inner ul li {
+        width: 16.666%;
+        height: 70px; }
+        header .inner ul li:nth-of-type(n+6) {
+          width: 8.333%;
+          text-align: center; }
+        header .inner ul li:nth-of-type(1) h3 {
+          font-size: 18px;
+          color: #111; }
+        header .inner ul li h2 {
+          font: 12px/1 'arial';
+          color: #222;
+          margin-bottom: 5px; }
+        header .inner ul li h3 {
+          font: 26px/1 'arial';
+          color: #fff; }
+        header .inner ul li i {
+          font-size: 30px;
+          margin-bottom: 5px; }
 
 main {
   width: 100%;
