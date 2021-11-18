@@ -491,3 +491,106 @@ main{
         }
     }
 }
+
+@media screen and (max-width: 540px){
+    header{
+        .inner{
+            h1{
+                font-size: 20px;
+            }
+            ul li{
+                &:nth-of-type(1){display: none;}
+                &:nth-of-type(n+6){display: none;}
+                width: 25%;
+            }
+        }
+    }
+
+    main{
+        .inner{
+            padding: 0;
+            padding-left: 5px;
+
+            section{
+                article{
+                    &.item-sizer{
+                        width: 50%;
+                    }
+                    &.item{
+                        width: 50%;
+
+                        .article_inner{
+                            >i{display: none;}
+                        }
+                        &.width2{
+                            width: 100%;
+
+                            .article_inner{
+                                .category i{
+                                    bottom: 15px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(4), &:nth-of-type(6){
+                            width: 50%;
+                            height: 40vh;
+
+                            .article_inner{
+                                img{
+                                    width: 100%;
+                                    height: 50%;
+                                }
+                                .category{
+                                    width: 100%;
+                                    height: 50%;
+                                }
+                                .title{
+                                    width: 100%;
+                                    top: auto;
+                                    bottom: 15%;
+                                }
+                            }
+                        }
+                        &:nth-of-type(5){
+                            .article_inner{
+                                div i{
+                                    bottom: 15px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(9){
+                            width: 50%;
+
+                            .article_inner{
+                                div i{
+                                    bottom: 15px;
+                                }
+                                img{
+                                    display: none;
+                                }
+                                div{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        &:nth-of-type(17){
+                            width: 50%;
+
+                            .article_inner{
+                                img{display: none;}
+                                .category{
+                                    width: 100%;
+                                }
+                                .title{
+                                    width: 100%;
+                                    
+                                    h1{font-size: 19px;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
