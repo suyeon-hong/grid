@@ -70,12 +70,20 @@ main {
           opacity: 0; }
         main .inner section article.item {
           padding: 7px 7px 0 0; }
+          main .inner section article.item:hover .article_inner img {
+            opacity: .8;
+            cursor: pointer; }
           main .inner section article.item .article_inner {
             width: 100%;
             height: 100%;
             background: #bbb;
             position: relative;
-            padding: 15px; }
+            padding: 15px;
+            overflow: hidden; }
+            main .inner section article.item .article_inner .cursor {
+              position: absolute;
+              width: 50px;
+              height: 50px !important; }
             main .inner section article.item .article_inner > h1 {
               font: 16px/1 'Pathway Gothic One';
               color: #fff;
@@ -120,7 +128,8 @@ main {
               width: 50%;
               height: 100%;
               object-fit: cover;
-              opacity: 0.6; }
+              opacity: 0.6;
+              transition: 1s; }
             main .inner section article.item.width2 .category {
               width: 50.1%;
               height: 100%;
@@ -168,7 +177,8 @@ main {
               width: 100%;
               height: 100%;
               object-fit: cover;
-              opacity: 0.6; }
+              opacity: 0.6;
+              transition: 1s; }
             main .inner section article.item.height2 .category {
               height: 25%; }
             main .inner section article.item.height2 .title {
