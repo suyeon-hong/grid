@@ -261,7 +261,6 @@ main{
                                 bottom: 0;
                                 background: #f0b008;
                                 padding: 15px;
-                                height: 50%;
     
                                 &::after{
                                     content: '';
@@ -589,12 +588,14 @@ main{
                 article{
                     &.item-sizer{
                         width: 50%;
+                        height: 20vh;
                     }
                     &.item{
                         width: 50%;
+                        height: 20vh;
 
                         .article_inner{
-                            >i{display: none;}
+                            i{display: none;}
                         }
                         &.width2{
                             width: 100%;
@@ -603,7 +604,11 @@ main{
                                 .category i{
                                     bottom: 15px;
                                 }
+                                .title h1{font-size: 26px;}
                             }
+                        }
+                        &.height2{
+                            height: 40vh;
                         }
                         &:nth-of-type(4), &:nth-of-type(6){
                             width: 50%;
@@ -625,41 +630,33 @@ main{
                                 }
                             }
                         }
-                        &:nth-of-type(5){
-                            .article_inner{
-                                div i{
-                                    bottom: 15px;
-                                }
+                        &:nth-of-type(10){
+                            height: 20vh;
+
+                            .article_inner div{
+                                height: 100%;
+
+                                &::after{display: none;}
                             }
                         }
-                        &:nth-of-type(9){
+                        &:nth-of-type(18){
                             width: 50%;
 
                             .article_inner{
-                                div i{
-                                    bottom: 15px;
-                                }
-                                img{
-                                    display: none;
-                                }
-                                div{
-                                    width: 100%;
-                                }
-                            }
-                        }
-                        &:nth-of-type(17){
-                            width: 50%;
-
-                            .article_inner{
-                                img{display: none;}
-                                .category{
-                                    width: 100%;
-                                }
+                                .category{width: 100%;}
                                 .title{
                                     width: 100%;
-                                    
-                                    h1{font-size: 19px;}
+                                
+                                h1{
+                                    font-size: 21px;
                                 }
+                            }
+                            }
+                        }
+                        &:nth-of-type(23){
+                            .article_inner{
+                                h2{font-size: 34px;}
+                                em{font-size: 17px;}
                             }
                         }
                     }
