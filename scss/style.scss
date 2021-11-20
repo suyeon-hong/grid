@@ -448,24 +448,27 @@ main{
                         &.width2{
                             width: 40%;
                         }
-                        &:nth-of-type(9){
-                            width: 40%;
-                            height: 20vh !important;
+                        &:nth-of-type(22){
+                            height: 25vh !important;
 
                             .article_inner{
-                                img{
-                                    width: 50%;
-                                    height: 100%;
-                                }
+                                img{display: none;}
                                 div{
-                                    width: 50%;
                                     height: 100%;
-                                    left: auto;
-                                    right: 0;
 
                                     &::after{
                                         display: none;
                                     }
+                                }
+                            }
+                        }
+                        &:nth-of-type(24){
+                            width: 20%;
+
+                            .article_inner{
+                                img{display: none;}
+                                .category, .title{
+                                    width: 100%;
                                 }
                             }
                         }

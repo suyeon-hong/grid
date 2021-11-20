@@ -314,19 +314,20 @@ main {
       font-weight: 300; }
     main .inner section article.item.width2 {
       width: 40%; }
-    main .inner section article.item:nth-of-type(9) {
-      width: 40%;
-      height: 20vh !important; }
-      main .inner section article.item:nth-of-type(9) .article_inner img {
-        width: 50%;
+    main .inner section article.item:nth-of-type(22) {
+      height: 25vh !important; }
+      main .inner section article.item:nth-of-type(22) .article_inner img {
+        display: none; }
+      main .inner section article.item:nth-of-type(22) .article_inner div {
         height: 100%; }
-      main .inner section article.item:nth-of-type(9) .article_inner div {
-        width: 50%;
-        height: 100%;
-        left: auto;
-        right: 0; }
-        main .inner section article.item:nth-of-type(9) .article_inner div::after {
-          display: none; } }
+        main .inner section article.item:nth-of-type(22) .article_inner div::after {
+          display: none; }
+    main .inner section article.item:nth-of-type(24) {
+      width: 20%; }
+      main .inner section article.item:nth-of-type(24) .article_inner img {
+        display: none; }
+      main .inner section article.item:nth-of-type(24) .article_inner .category, main .inner section article.item:nth-of-type(24) .article_inner .title {
+        width: 100%; } }
 @media screen and (max-width: 980px) {
   header .inner h1 {
     font-size: 22px; }
