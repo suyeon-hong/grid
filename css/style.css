@@ -315,7 +315,7 @@ main {
     main .inner section article.item.width2 {
       width: 40%; }
     main .inner section article.item:nth-of-type(22) {
-      height: 25vh !important; }
+      height: 25vh; }
       main .inner section article.item:nth-of-type(22) .article_inner img {
         display: none; }
       main .inner section article.item:nth-of-type(22) .article_inner div {
@@ -355,10 +355,22 @@ main {
         bottom: 30px; }
     main .inner section article.item:nth-of-type(5) .article_inner div i, main .inner section article.item:nth-of-type(9) .article_inner div i {
       bottom: 30px; }
-    main .inner section article.item:nth-of-type(9) {
-      width: 66.666%; }
     main .inner section article.item:nth-of-type(17) .article_inner .title h1 {
-      font-size: 24px; } }
+      font-size: 24px; }
+    main .inner section article.item:nth-of-type(22) {
+      height: 50vh; }
+      main .inner section article.item:nth-of-type(22) .article_inner img {
+        display: block; }
+      main .inner section article.item:nth-of-type(22) .article_inner div {
+        height: 50%; }
+        main .inner section article.item:nth-of-type(22) .article_inner div::after {
+          display: block; }
+    main .inner section article.item:nth-of-type(24) .article_inner img {
+      display: block; }
+    main .inner section article.item:nth-of-type(24) .article_inner .category {
+      width: 50%; }
+    main .inner section article.item:nth-of-type(24) .article_inner .title {
+      width: 60%; } }
 @media screen and (max-width: 540px) {
   header .inner h1 {
     font-size: 20px; }

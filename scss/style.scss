@@ -449,7 +449,7 @@ main{
                             width: 40%;
                         }
                         &:nth-of-type(22){
-                            height: 25vh !important;
+                            height: 25vh;
 
                             .article_inner{
                                 img{display: none;}
@@ -535,11 +535,29 @@ main{
                                 bottom: 30px;
                             }
                         }
-                        &:nth-of-type(9){
-                            width: 66.666%;
-                        }
                         &:nth-of-type(17){
                             .article_inner .title h1{font-size: 24px;}
+                        }
+                        &:nth-of-type(22){
+                            height: 50vh;
+
+                            .article_inner{
+                                img{display: block;}
+                                div{
+                                    height: 50%;
+
+                                    &::after{
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(24){
+                            .article_inner{
+                                img{display: block}
+                                .category{width: 50%;}
+                                .title{width: 60%}
+                            }
                         }
                     }
                 }
