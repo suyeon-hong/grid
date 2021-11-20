@@ -44,7 +44,6 @@ header{
                     font: bold 30px/1 'Pathway Gothic One';
                     color: #fff;
                     letter-spacing: 2px;
-                    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
                 }
                 i{
                     font-size: 30px;
@@ -247,7 +246,7 @@ main{
                             }
                         }
                     }
-                    &:nth-of-type(5), &:nth-of-type(9){
+                    &:nth-of-type(5), &:nth-of-type(9), &:nth-of-type(22){
                         .article_inner{
                             background: #ecc051;
 
@@ -312,7 +311,7 @@ main{
                     &:nth-of-type(7), &:nth-of-type(14), &:nth-of-type(18){
                         .article_inner{background: rgb(27, 179, 240);}
                     }
-                    &:nth-of-type(8){
+                    &:nth-of-type(8), &:nth-of-type(23){
                         .article_inner{
                             background: #47C3B0;
 
@@ -325,7 +324,7 @@ main{
                             }
                         }
                     }
-                    &:nth-of-type(10){
+                    &:nth-of-type(10), &:nth-of-type(24){
                         .article_inner{
                             background: rgb(206, 149, 206);
 
@@ -349,6 +348,25 @@ main{
                             .category{background: rgb(247, 200, 100)}
                             .title{background: rgb(228, 176, 64);}
                         }
+                    }
+                    &:nth-of-type(19){
+                        .article_inner{
+                            background: #8bd8f7;
+
+                            .category{background: #1bb3f0;}
+                            .title{background: #1ba2f0;}
+                        }
+                    }
+                    &:nth-of-type(20){
+                        .article_inner{
+                            background: rgb(235, 235, 91);
+
+                            .category{background: rgb(214, 214, 15);}
+                            .title{background: rgb(196, 196, 9);}
+                        }
+                    }
+                    &:nth-of-type(21){
+                        .article_inner{background: #035677;}
                     }
                 }
             }
