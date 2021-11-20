@@ -63,7 +63,7 @@ main {
       main .inner section article {
         float: left;
         width: 16.666%;
-        height: 20vh; }
+        height: 25vh; }
         main .inner section article.item-sizer {
           width: 16.666%;
           height: 0;
@@ -157,11 +157,11 @@ main {
                 font: 14px/1 'Pathway Gothic One';
                 color: #fff; }
               main .inner section article.item.width2 .title h1 {
-                font: 27px/1 'Pathway Gothic One';
+                font: 30px/1 'Pathway Gothic One';
                 color: #fff;
                 margin-top: 5px; }
           main .inner section article.item.height2 {
-            height: 40vh; }
+            height: 50vh; }
             main .inner section article.item.height2 .article_inner {
               padding: 0; }
             main .inner section article.item.height2 img {
@@ -179,7 +179,7 @@ main {
               right: auto;
               left: 0;
               padding-top: 10px; }
-          main .inner section article.item:nth-of-type(2) .article_inner, main .inner section article.item:nth-of-type(17) .article_inner {
+          main .inner section article.item:nth-of-type(2) .article_inner, main .inner section article.item:nth-of-type(18) .article_inner {
             background: #73daca; }
           main .inner section article.item:nth-of-type(3) .article_inner, main .inner section article.item:nth-of-type(15) .article_inner {
             background: #f0b008; }
@@ -191,11 +191,11 @@ main {
               background: #b972b9; }
             main .inner section article.item:nth-of-type(4) .article_inner .title, main .inner section article.item:nth-of-type(11) .article_inner .title {
               background: #a343a3; }
-          main .inner section article.item:nth-of-type(5) .article_inner, main .inner section article.item:nth-of-type(9) .article_inner, main .inner section article.item:nth-of-type(22) .article_inner {
+          main .inner section article.item:nth-of-type(5) .article_inner, main .inner section article.item:nth-of-type(10) .article_inner, main .inner section article.item:nth-of-type(22) .article_inner {
             background: #ecc051; }
-            main .inner section article.item:nth-of-type(5) .article_inner img, main .inner section article.item:nth-of-type(9) .article_inner img, main .inner section article.item:nth-of-type(22) .article_inner img {
+            main .inner section article.item:nth-of-type(5) .article_inner img, main .inner section article.item:nth-of-type(10) .article_inner img, main .inner section article.item:nth-of-type(22) .article_inner img {
               height: 50%; }
-            main .inner section article.item:nth-of-type(5) .article_inner div, main .inner section article.item:nth-of-type(9) .article_inner div, main .inner section article.item:nth-of-type(22) .article_inner div {
+            main .inner section article.item:nth-of-type(5) .article_inner div, main .inner section article.item:nth-of-type(10) .article_inner div, main .inner section article.item:nth-of-type(22) .article_inner div {
               width: 100%;
               height: 50%;
               position: absolute;
@@ -204,7 +204,7 @@ main {
               background: #f0b008;
               padding: 15px;
               height: 50%; }
-              main .inner section article.item:nth-of-type(5) .article_inner div::after, main .inner section article.item:nth-of-type(9) .article_inner div::after, main .inner section article.item:nth-of-type(22) .article_inner div::after {
+              main .inner section article.item:nth-of-type(5) .article_inner div::after, main .inner section article.item:nth-of-type(10) .article_inner div::after, main .inner section article.item:nth-of-type(22) .article_inner div::after {
                 content: '';
                 display: block;
                 border-bottom: 10px solid #f0b008;
@@ -213,21 +213,21 @@ main {
                 position: absolute;
                 top: -10px;
                 right: 20px; }
-              main .inner section article.item:nth-of-type(5) .article_inner div h1, main .inner section article.item:nth-of-type(9) .article_inner div h1, main .inner section article.item:nth-of-type(22) .article_inner div h1 {
+              main .inner section article.item:nth-of-type(5) .article_inner div h1, main .inner section article.item:nth-of-type(10) .article_inner div h1, main .inner section article.item:nth-of-type(22) .article_inner div h1 {
                 font: 16px/1 'Pathway Gothic One';
                 color: #555;
                 margin-bottom: 10px; }
-              main .inner section article.item:nth-of-type(5) .article_inner div h2, main .inner section article.item:nth-of-type(9) .article_inner div h2, main .inner section article.item:nth-of-type(22) .article_inner div h2 {
+              main .inner section article.item:nth-of-type(5) .article_inner div h2, main .inner section article.item:nth-of-type(10) .article_inner div h2, main .inner section article.item:nth-of-type(22) .article_inner div h2 {
                 font: 28px/1 'Pathway Gothic One';
                 color: #333; }
-              main .inner section article.item:nth-of-type(5) .article_inner div span, main .inner section article.item:nth-of-type(9) .article_inner div span, main .inner section article.item:nth-of-type(22) .article_inner div span {
+              main .inner section article.item:nth-of-type(5) .article_inner div span, main .inner section article.item:nth-of-type(10) .article_inner div span, main .inner section article.item:nth-of-type(22) .article_inner div span {
                 display: block;
                 position: absolute;
                 bottom: 15px;
                 left: 15px;
                 font: 300 12px/1 'M PLUS 1';
                 color: #555; }
-              main .inner section article.item:nth-of-type(5) .article_inner div i, main .inner section article.item:nth-of-type(9) .article_inner div i, main .inner section article.item:nth-of-type(22) .article_inner div i {
+              main .inner section article.item:nth-of-type(5) .article_inner div i, main .inner section article.item:nth-of-type(10) .article_inner div i, main .inner section article.item:nth-of-type(22) .article_inner div i {
                 position: absolute;
                 bottom: 15px;
                 right: 15px;
@@ -239,22 +239,22 @@ main {
               background: #c5c506; }
             main .inner section article.item:nth-of-type(6) .article_inner .title {
               background: #999911; }
-          main .inner section article.item:nth-of-type(7) .article_inner, main .inner section article.item:nth-of-type(14) .article_inner, main .inner section article.item:nth-of-type(18) .article_inner {
+          main .inner section article.item:nth-of-type(7) .article_inner, main .inner section article.item:nth-of-type(13) .article_inner, main .inner section article.item:nth-of-type(17) .article_inner {
             background: #1bb3f0; }
-          main .inner section article.item:nth-of-type(8) .article_inner, main .inner section article.item:nth-of-type(23) .article_inner {
+          main .inner section article.item:nth-of-type(9) .article_inner, main .inner section article.item:nth-of-type(23) .article_inner {
             background: #47C3B0; }
-            main .inner section article.item:nth-of-type(8) .article_inner h2, main .inner section article.item:nth-of-type(23) .article_inner h2 {
+            main .inner section article.item:nth-of-type(9) .article_inner h2, main .inner section article.item:nth-of-type(23) .article_inner h2 {
               color: #fff;
               font-size: 30px; }
-            main .inner section article.item:nth-of-type(8) .article_inner span, main .inner section article.item:nth-of-type(23) .article_inner span {
+            main .inner section article.item:nth-of-type(9) .article_inner span, main .inner section article.item:nth-of-type(23) .article_inner span {
               line-height: 1.6; }
-          main .inner section article.item:nth-of-type(10) .article_inner, main .inner section article.item:nth-of-type(24) .article_inner {
+          main .inner section article.item:nth-of-type(8) .article_inner, main .inner section article.item:nth-of-type(24) .article_inner {
             background: #ce95ce; }
-            main .inner section article.item:nth-of-type(10) .article_inner .category, main .inner section article.item:nth-of-type(24) .article_inner .category {
+            main .inner section article.item:nth-of-type(8) .article_inner .category, main .inner section article.item:nth-of-type(24) .article_inner .category {
               background: #e28bcc; }
-            main .inner section article.item:nth-of-type(10) .article_inner .title, main .inner section article.item:nth-of-type(24) .article_inner .title {
+            main .inner section article.item:nth-of-type(8) .article_inner .title, main .inner section article.item:nth-of-type(24) .article_inner .title {
               background: #b35c9d; }
-          main .inner section article.item:nth-of-type(13) .article_inner {
+          main .inner section article.item:nth-of-type(12) .article_inner {
             background: #035677; }
           main .inner section article.item:nth-of-type(16) .article_inner {
             background: #f3da96; }
@@ -263,11 +263,11 @@ main {
             main .inner section article.item:nth-of-type(16) .article_inner .title {
               background: #e4b040; }
           main .inner section article.item:nth-of-type(19) .article_inner {
-            background: #8bd8f7; }
+            background: #f1c24b; }
             main .inner section article.item:nth-of-type(19) .article_inner .category {
-              background: #1bb3f0; }
+              background: #e4a300; }
             main .inner section article.item:nth-of-type(19) .article_inner .title {
-              background: #1ba2f0; }
+              background: #f0b008; }
           main .inner section article.item:nth-of-type(20) .article_inner {
             background: #ebeb5b; }
             main .inner section article.item:nth-of-type(20) .article_inner .category {
@@ -276,6 +276,20 @@ main {
               background: #c4c409; }
           main .inner section article.item:nth-of-type(21) .article_inner {
             background: #035677; }
+          main .inner section article.item:nth-of-type(22) .article_inner {
+            background: #76d2f7; }
+            main .inner section article.item:nth-of-type(22) .article_inner div {
+              background: #1bb3f0; }
+              main .inner section article.item:nth-of-type(22) .article_inner div::after {
+                border-bottom-color: #1bb3f0; }
+          main .inner section article.item:nth-of-type(23) .article_inner {
+            background: #35a796; }
+            main .inner section article.item:nth-of-type(23) .article_inner h2 {
+              font-size: 44px;
+              margin-bottom: 10px; }
+            main .inner section article.item:nth-of-type(23) .article_inner em {
+              font: 300 20px/1 'Pathway Gothic One';
+              color: #fff; }
 
 @media screen and (max-width: 1400px) {
   header .inner {

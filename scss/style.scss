@@ -74,7 +74,7 @@ main{
             article{
                 float: left;
                 width: 16.666%;
-                height: 20vh;
+                height: 25vh;
 
                 &.item-sizer{
                     width: 16.666%;
@@ -191,14 +191,14 @@ main{
                                 color: #fff;
                             }
                             h1{
-                                font: 27px/1 'Pathway Gothic One';
+                                font: 30px/1 'Pathway Gothic One';
                                 color: #fff;
                                 margin-top: 5px;
                             }
                         }
                     }
                     &.height2{
-                        height: 40vh;
+                        height: 50vh;
 
                         .article_inner{padding:0}
                         img{
@@ -220,7 +220,7 @@ main{
                             padding-top: 10px;
                         }
                     }
-                    &:nth-of-type(2), &:nth-of-type(17){
+                    &:nth-of-type(2), &:nth-of-type(18){
                         .article_inner{
                             background: #73daca;
                         }
@@ -246,7 +246,7 @@ main{
                             }
                         }
                     }
-                    &:nth-of-type(5), &:nth-of-type(9), &:nth-of-type(22){
+                    &:nth-of-type(5), &:nth-of-type(10), &:nth-of-type(22){
                         .article_inner{
                             background: #ecc051;
 
@@ -308,10 +308,10 @@ main{
                             .title{background: rgb(153, 153, 17);}
                         }
                     }
-                    &:nth-of-type(7), &:nth-of-type(14), &:nth-of-type(18){
+                    &:nth-of-type(7), &:nth-of-type(13), &:nth-of-type(17){
                         .article_inner{background: rgb(27, 179, 240);}
                     }
-                    &:nth-of-type(8), &:nth-of-type(23){
+                    &:nth-of-type(9), &:nth-of-type(23){
                         .article_inner{
                             background: #47C3B0;
 
@@ -324,7 +324,7 @@ main{
                             }
                         }
                     }
-                    &:nth-of-type(10), &:nth-of-type(24){
+                    &:nth-of-type(8), &:nth-of-type(24){
                         .article_inner{
                             background: rgb(206, 149, 206);
 
@@ -336,7 +336,7 @@ main{
                             }
                         }
                     }
-                    &:nth-of-type(13){
+                    &:nth-of-type(12){
                         .article_inner{
                             background: #035677;
                         }
@@ -351,10 +351,10 @@ main{
                     }
                     &:nth-of-type(19){
                         .article_inner{
-                            background: #8bd8f7;
+                            background: #f1c24b;
 
-                            .category{background: #1bb3f0;}
-                            .title{background: #1ba2f0;}
+                            .category{background: #e4a300;}
+                            .title{background: #f0b008;}
                         }
                     }
                     &:nth-of-type(20){
@@ -367,6 +367,31 @@ main{
                     }
                     &:nth-of-type(21){
                         .article_inner{background: #035677;}
+                    }
+                    &:nth-of-type(22){
+                        .article_inner{
+                            background: #76d2f7;
+
+                            div{
+                                background: #1bb3f0;
+
+                                &::after{border-bottom-color: #1bb3f0;}
+                            }
+                        }
+                    }
+                    &:nth-of-type(23){
+                        .article_inner{
+                            background: #35a796;
+
+                            h2{
+                                font-size: 44px;
+                                margin-bottom: 10px;
+                            }
+                            em{
+                                font: 300 20px/1 'Pathway Gothic One';
+                                color: #fff;
+                            }
+                        }
                     }
                 }
             }
