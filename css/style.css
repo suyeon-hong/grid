@@ -194,6 +194,26 @@ main {
               right: auto;
               left: 0;
               padding-top: 10px; }
+            main .inner section article.item.height2 svg {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              width: 120px;
+              height: 120px;
+              transform: translate(-50%, -50%);
+              cursor: pointer; }
+              main .inner section article.item.height2 svg.on path {
+                fill: rgba(255, 255, 255, 0.9);
+                stroke-dashoffset: 0;
+                transition: stroke-dashoffset 1s, fill 1s 1s; }
+              main .inner section article.item.height2 svg path {
+                transform: scale(0.6);
+                fill: transparent;
+                stroke: rgba(255, 255, 255, 0.7);
+                stroke-width: 2px;
+                stroke-dasharray: 570px;
+                stroke-dashoffset: 570px;
+                transition: stroke-dashoffset .8s .8s, fill .8s; }
           main .inner section article.item:nth-of-type(2) .article_inner, main .inner section article.item:nth-of-type(18) .article_inner {
             background: #73daca; }
           main .inner section article.item:nth-of-type(3) .article_inner, main .inner section article.item:nth-of-type(15) .article_inner {
