@@ -4,8 +4,9 @@ const img = item.find("img");
 
 img.on("mouseenter", function(){
     let hasCursor = $(this).parent().find("img").hasClass("cursor");
-    console.log(hasCursor);
+
     if(hasCursor) return;
+    
     $(this).closest(".article_inner").append(
         $("<img src='img/cursor.png' class='cursor'>")
     )

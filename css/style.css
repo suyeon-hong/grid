@@ -107,6 +107,11 @@ main {
               right: 15px;
               font-size: 12px;
               color: #fff; }
+            main .inner section article.item .article_inner i {
+              transition: .4s;
+              cursor: pointer; }
+              main .inner section article.item .article_inner i:hover {
+                transform: scale(1.15); }
             main .inner section article.item .article_inner ul {
               margin-top: 20px; }
               main .inner section article.item .article_inner ul li {
