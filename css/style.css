@@ -428,7 +428,12 @@ main {
 
   main .inner {
     width: 100%;
-    padding: 0 20px; } }
+    padding: 0 20px; }
+
+  .pop {
+    padding: 140px 170px; }
+    .pop .inner .close {
+      right: 135px; } }
 @media screen and (max-width: 1200px) {
   header .inner ul li h3 {
     font-size: 26px; }
@@ -500,7 +505,13 @@ main {
     main .inner section article.item:nth-of-type(24) .article_inner .category {
       width: 50%; }
     main .inner section article.item:nth-of-type(24) .article_inner .title {
-      width: 60%; } }
+      width: 60%; }
+
+  .pop {
+    padding: 100px 20px; }
+    .pop .inner .close {
+      right: 20px;
+      top: 70px; } }
 @media screen and (max-width: 540px) {
   header .inner h1 {
     font-size: 20px; }
@@ -560,6 +571,26 @@ main {
       main .inner section article.item:nth-of-type(23) .article_inner h2 {
         font-size: 34px; }
       main .inner section article.item:nth-of-type(23) .article_inner em {
-        font-size: 17px; } }
+        font-size: 17px; }
+
+  .pop .inner .con {
+    padding: 10px; }
+    .pop .inner .con h1 {
+      font-size: 24px; }
+    .pop .inner .con h2 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .pop .inner .con h3 {
+      font-size: 16px;
+      margin-bottom: 5px; }
+    .pop .inner .con h4 {
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 10px; }
+    .pop .inner .con ul li {
+      margin-right: 5px;
+      padding: 5px; }
+      .pop .inner .con ul li span {
+        font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
