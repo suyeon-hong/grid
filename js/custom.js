@@ -1,5 +1,5 @@
 const item = $(".item");
-const imgBox = $(".clickable");
+const imgBox = $(".video");
 
 item.on("mouseenter", function(){
     $(this).find("svg").addClass("on");
@@ -11,7 +11,7 @@ item.on("mouseleave", function(){
 
 imgBox.on("click", function(){
     let bg = $(this).find(".article_inner").css("background");
-    let imgSrc = $(this).find("img").attr("src");
+    let src = $(this).find("video").attr("src");
     let tit1 = $(this).find(".title h1").text();
     let tit2 = $(this).find(".title em").text();
     let sub1 = $(this).find(".category h1").text();
@@ -20,7 +20,7 @@ imgBox.on("click", function(){
     $("body").append(
         $("<div class='pop'>").append(
             $("<div class='inner'>").css({background: bg}).append(
-                $("<img>").attr({src: imgSrc}),
+                $("<video muted autoplay loop>").attr({src: src}),
                 $("<div class='con'>").append(
                     $("<h1>").text(tit1),
                     $("<h2>").text(tit2),
