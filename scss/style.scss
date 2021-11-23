@@ -448,6 +448,122 @@ main{
     }
 }
 
+.pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.85);
+    padding: 140px 300px;
+
+    .inner{
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 100%;
+            height: 65%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        .con{
+            width: 100%;
+            padding: 20px 30px;
+
+            h1{
+                font: 38px/1 'Pathway Gothic One';
+                color: #fff;
+            }
+            h2{
+                font: 25px/1 'Pathway Gothic One';
+                color: #fff;
+                margin-bottom: 30px;
+            }
+            h3{
+                font: 18px/1 'Pathway Gothic One';
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            h4{
+                font: 400 14px/1 'M PLUS 1';
+                color: #fff;
+                margin-bottom: 20px;
+            }
+            ul{
+                display: flex;
+
+                li{
+                    margin-right: 10px;
+                    padding: 10px;
+                    background: #f3e13e;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    &:hover{
+                        box-shadow: 0 0 2px rgba(0,0,0,0.2);
+                    }
+                    i{
+                        font-size: 14px;
+                        color: #222;
+                    }
+                    span{
+                        display: inline-block;
+                        font: 14px/1 'M PLUS 1';
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        .close{
+            position: absolute;
+            top: 140px;
+            right: 265px;
+            width: 30px;
+            height: 30px;
+            background: #f3e13e;
+            cursor: pointer;
+
+            &:hover{
+                &::before, &::after{
+                    transform: rotate(180deg);
+                }
+            }
+            &::before{
+                content: '';
+                display: block;
+                width: 25px;
+                height: 1px;
+                background: #222;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -12px;
+                transform: rotate(-45deg);
+                transition: .6s;
+            }
+            &::after{
+                content: '';
+                display: block;
+                width: 25px;
+                height: 1px;
+                background: #222;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -12px;
+                transform: rotate(45deg);
+                transition: .6s;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1400px){
     header{
         .inner{
