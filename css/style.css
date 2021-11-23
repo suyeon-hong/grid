@@ -17,14 +17,16 @@ header {
     width: 1400px;
     margin: 0 auto; }
     header .inner h1 {
-      font: 900 26px/1 'M PLUS 1';
-      color: #111;
       padding: 10px 0 30px; }
+      header .inner h1 a {
+        font: 900 26px/1 'M PLUS 1';
+        color: #111; }
     header .inner ul {
       display: flex; }
       header .inner ul li {
         width: 16.666%;
-        height: 70px; }
+        height: 70px;
+        padding-right: 5px; }
         header .inner ul li:nth-of-type(n+6) {
           width: 8.333%;
           text-align: center; }
@@ -34,7 +36,8 @@ header {
           font: normal 24px/1 'Pathway Gothic One';
           color: #111;
           letter-spacing: normal;
-          text-shadow: none; }
+          text-shadow: none;
+          cursor: auto; }
         header .inner ul li h2 {
           font: normal 16px/1 'Pathway Gothic One';
           color: #222;
@@ -42,10 +45,12 @@ header {
         header .inner ul li h3 {
           font: bold 30px/1 'Pathway Gothic One';
           color: #fff;
-          letter-spacing: 2px; }
+          letter-spacing: 2px;
+          cursor: pointer; }
         header .inner ul li i {
           font-size: 30px;
-          margin-bottom: 5px; }
+          margin-bottom: 5px;
+          cursor: pointer; }
 
 main {
   width: 100%;
@@ -464,7 +469,7 @@ main {
       main .inner section article.item:nth-of-type(24) .article_inner .category, main .inner section article.item:nth-of-type(24) .article_inner .title {
         width: 100%; } }
 @media screen and (max-width: 980px) {
-  header .inner h1 {
+  header .inner h1 a {
     font-size: 22px; }
   header .inner ul li:nth-of-type(1) h3 {
     font-size: 20px; }
@@ -513,7 +518,7 @@ main {
       right: 20px;
       top: 70px; } }
 @media screen and (max-width: 540px) {
-  header .inner h1 {
+  header .inner h1 a {
     font-size: 20px; }
   header .inner ul li {
     width: 25%; }

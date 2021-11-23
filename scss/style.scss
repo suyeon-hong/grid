@@ -11,9 +11,12 @@ header{
         margin: 0 auto;
 
         h1{
-            font: 900 26px/1 'M PLUS 1';
-            color: #111;
             padding: 10px 0 30px;
+
+            a{
+                font: 900 26px/1 'M PLUS 1';
+                color: #111;
+            }
         }
         ul{
             display: flex;
@@ -21,6 +24,7 @@ header{
             li{
                 width: 16.666%;
                 height: 70px;
+                padding-right: 5px;
 
                 &:nth-of-type(n+6){
                     width: 8.333%;
@@ -33,6 +37,7 @@ header{
                         color: #111;
                         letter-spacing: normal;
                         text-shadow: none;
+                        cursor: auto;
                     }
                 }
                 h2{
@@ -44,10 +49,12 @@ header{
                     font: bold 30px/1 'Pathway Gothic One';
                     color: #fff;
                     letter-spacing: 2px;
+                    cursor: pointer;
                 }
                 i{
                     font-size: 30px;
                     margin-bottom: 5px;
+                    cursor: pointer;
                 }
             }
         }
@@ -661,7 +668,7 @@ main{
 @media screen and (max-width: 980px){
     header{
         .inner{
-            h1{
+            h1 a{
                 font-size: 22px;
             }
             ul li{
@@ -758,7 +765,7 @@ main{
 @media screen and (max-width: 540px){
     header{
         .inner{
-            h1{
+            h1 a{
                 font-size: 20px;
             }
             ul li{
