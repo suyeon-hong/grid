@@ -696,7 +696,50 @@ main {
     padding: 100px 20px; }
     .pop .inner .close {
       right: 20px;
-      top: 70px; } }
+      top: 70px; }
+
+  .pop2 .inner {
+    width: 650px; }
+    .pop2 .inner .con h1 {
+      margin-bottom: 10px; }
+    .pop2 .inner .con article div {
+      padding-left: 120px; }
+    .pop2 .inner .con textarea {
+      height: 140px;
+      margin: 0;
+      margin-bottom: 5px; }
+    .pop2 .inner .close {
+      right: -35px; } }
+@media screen and (max-width: 768px) {
+  .pop2 .inner {
+    width: 90%;
+    height: auto;
+    flex-direction: column; }
+    .pop2 .inner img {
+      width: 100%;
+      height: 200px; }
+    .pop2 .inner .btns {
+      bottom: auto;
+      top: 160px; }
+    .pop2 .inner .close {
+      top: -30px;
+      right: 0;
+      width: 25px;
+      height: 25px; }
+      .pop2 .inner .close::before, .pop2 .inner .close::after {
+        width: 18px;
+        margin-left: -9px; }
+    .pop2 .inner .con {
+      width: 100%;
+      padding: 20px; }
+      .pop2 .inner .con article {
+        margin-bottom: 30px; }
+        .pop2 .inner .con article:nth-of-type(2) {
+          display: none; }
+      .pop2 .inner .con textarea {
+        height: 80px; }
+      .pop2 .inner .con input[type=submit], .pop2 .inner .con .reset {
+        height: 35px; } }
 @media screen and (max-width: 540px) {
   header .inner h1 a {
     font-size: 20px; }
@@ -759,7 +802,7 @@ main {
         font-size: 17px; }
 
   .pop .inner .con {
-    padding: 10px; }
+    padding: 20px; }
     .pop .inner .con h1 {
       font-size: 24px; }
     .pop .inner .con h2 {
