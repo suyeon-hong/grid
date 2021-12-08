@@ -9,8 +9,19 @@
     <script src="https://kit.fontawesome.com/0c5c47f3c6.js" crossorigin="anonymous"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script defer src="js/isotope.js"></script>
     <script defer src="js/custom.js"></script>
+    <script>
+        window.addEventListener("load", ()=>{
+            new Isotope("section", {
+                itemSelector: ".item",
+                percentPosition: true,
+                transitionDuration: ".6s",
+                masonry: {
+                    columnWidth: ".item-sizer"
+                }
+            });
+        })
+    </script>
 </head>
 <body>
     <header>
@@ -62,7 +73,7 @@
                         </div>
                         <div class="title">
                             <em>Lorem ipsum dolor</em>
-                            <h1>FRIDAY THE 13th. (SCARY) MOVIE NIGHT.</h1>
+                            <h2>FRIDAY THE 13th. (SCARY) MOVIE NIGHT.</h2>
                         </div>
                         <svg>
                             <path d="M 89.3125,0 C 39.86187,0 0,39.86187 0,89.3125 0,138.76314 39.86187,179 89.3125,179 138.76315,179 179.37495,138.76314 179.37495,89.3125 179.37495,39.86187 138.76315,0 89.3125,0 z m 0,11.46875 c 42.91753,0 77.84375,34.92619 77.84375,77.84375 0,42.91756 -34.92622,77.8438 -77.84375,77.8437 -42.91754,0 -77.84375,-34.92614 -77.84375,-77.8437 0,-42.91756 34.92621,-77.84375 77.84375,-77.84375 z m -32.09375,22.25 0,111.21875 95.9688,-55.625 -95.9688,-55.59375 z">
@@ -78,7 +89,7 @@
                         <i class="fas fa-wifi"></i>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/branding.jpg">
                         <div class="category">
@@ -87,12 +98,12 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>BRANDING BRIEF</h1>
+                            <h2>BRANDING BRIEF</h2>
                             <em>REVISION 5</em>
                         </div>
                     </div>
                 </article>
-                <article class="item height2">
+                <article class="item height2 pic">
                     <div class="article_inner">
                         <img src="img/boneface.jpg">
                         <div>
@@ -103,7 +114,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/nest.jpg">
                         <div class="category">
@@ -112,7 +123,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>ONE FLEW OVER THE CUCKOO"S NEST</h1>
+                            <h2>ONE FLEW OVER THE CUCKOO"S NEST</h2>
                         </div>
                     </div>
                 </article>
@@ -124,7 +135,7 @@
                         <i class="fab fa-rocketchat"></i>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/waiting.jpg">
                         <div class="category">
@@ -133,7 +144,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>SHE WAS WAITING 100 LONG</h1>
+                            <h2>SHE WAS WAITING 100 LONG</h2>
                             <em>REVISION 4</em>
                         </div>
                     </div>
@@ -145,7 +156,7 @@
                         <span>Lorem<br>sit<br>ipsum</span>
                     </div>
                 </article>
-                <article class="item height2">
+                <article class="item height2 pic">
                     <div class="article_inner">
                         <img src="img/life.jpg">
                         <div>
@@ -165,7 +176,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>ARMSTRONG. A MAN WHO CHANGED THE WORLD</h1>
+                            <h2>ARMSTRONG. A MAN WHO CHANGED THE WORLD</h2>
                             <em>FINAL REVISION</em>
                         </div>
                         <svg>
@@ -192,7 +203,7 @@
                 </article>
                 <article class="item">
                     <div class="article_inner">
-                        <h1>Lorem</h1>
+                        <h2>Lorem</h2>
                         <p>Do you like "hub"?</p>
                         <ul>
                             <li>Yes</li>
@@ -209,7 +220,7 @@
                         <i class="fas fa-wifi"></i>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/dinosaurs.jpg">
                         <div class="category">
@@ -231,7 +242,7 @@
                         <i class="fab fa-rocketchat"></i>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/designer.jpg">
                         <div class="category">
@@ -241,7 +252,7 @@
                         </div>
                         <div class="title">
                             <em>19th May</em>
-                            <h1>D&AD SESSIONS: STEPHEN SAGMEISTER</h1>
+                            <h2>D&AD SESSIONS: STEPHEN SAGMEISTER</h2>
                         </div>
                     </div>
                 </article>
@@ -254,7 +265,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>SPECTRE.<br>SPECTRUM.<br>ESPECTRO.</h1>
+                            <h2>SPECTRE.<br>SPECTRUM.<br>ESPECTRO.</h2>
                         </div>
                         <svg>
                             <path d="M 89.3125,0 C 39.86187,0 0,39.86187 0,89.3125 0,138.76314 39.86187,179 89.3125,179 138.76315,179 179.37495,138.76314 179.37495,89.3125 179.37495,39.86187 138.76315,0 89.3125,0 z m 0,11.46875 c 42.91753,0 77.84375,34.92619 77.84375,77.84375 0,42.91756 -34.92622,77.8438 -77.84375,77.8437 -42.91754,0 -77.84375,-34.92614 -77.84375,-77.8437 0,-42.91756 34.92621,-77.84375 77.84375,-77.84375 z m -32.09375,22.25 0,111.21875 95.9688,-55.625 -95.9688,-55.59375 z">
@@ -262,7 +273,7 @@
                         </svg>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/photography.jpg">
                         <div class="category">
@@ -271,7 +282,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>KIRLIAN - PHOTOGRAPHY</h1>
+                            <h2>KIRLIAN - PHOTOGRAPHY</h2>
                             <em>FINAL REVISION</em>
                         </div>
                     </div>
@@ -284,7 +295,7 @@
                         <i class="fab fa-rocketchat"></i>
                     </div>
                 </article>
-                <article class="item height2">
+                <article class="item height2 pic">
                     <div class="article_inner">
                         <img src="img/outpost.jpg">
                         <div>
@@ -302,7 +313,7 @@
                         <em>BEST MOVIE RETURN ON TOMORROW</em>
                     </div>
                 </article>
-                <article class="item width2">
+                <article class="item width2 pic">
                     <div class="article_inner">
                         <img src="img/time.jpg">
                         <div class="category">
@@ -311,7 +322,7 @@
                             <i class="fas fa-box"></i>
                         </div>
                         <div class="title">
-                            <h1>NO TIME TO DIE</h1>
+                            <h2>NO TIME TO DIE</h2>
                             <em>FINAL REVISION</em>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 const item = $(".item");
-const imgBox = $(".video");
+const vidBox = $(".video");
+const picBox = $(".pic");
 
 item.on("mouseenter", function(){
     $(this).find("svg").addClass("on");
@@ -9,16 +10,16 @@ item.on("mouseleave", function(){
     $("svg").removeClass("on");
 });
 
-imgBox.on("click", function(){
-    let bg = $(this).find(".article_inner").css("background");
-    let src = $(this).find("video").attr("src");
-    let tit1 = $(this).find(".title h1").text();
-    let tit2 = $(this).find(".title em").text();
-    let sub1 = $(this).find(".category h1").text();
-    let sub2 = $(this).find(".category p").text();
+vidBox.on("click", function(){
+    const bg = $(this).find(".article_inner").css("background");
+    const src = $(this).find("video").attr("src");
+    const tit1 = $(this).find(".title h2").text();
+    const tit2 = $(this).find(".title em").text();
+    const sub1 = $(this).find(".category h1").text();
+    const sub2 = $(this).find(".category p").text();
 
     $("body").append(
-        $("<div class='pop'>").append(
+        $("<aside class='pop'>").append(
             $("<div class='inner'>").css({background: bg}).append(
                 $("<video muted autoplay loop>").attr({src: src}),
                 $("<div class='con'>").append(
@@ -49,6 +50,51 @@ imgBox.on("click", function(){
             )
         )
     );
+});
+
+picBox.on("click", function(){
+    const src = $(this).find("img").attr("src");
+    
+    $("body").append(
+        $("<aside class='pop2'>").append(
+            $("<div class='inner'>").append(
+                $("<img>").attr({src: src}),
+                $("<div class='btns'>").append(
+                    $("<span>").text("18").append(
+                        ("<i class='fas fa-thumbs-up'>")
+                    ),
+                    $("<span>").append(
+                        ("<i class='fas fa-share-alt'>")
+                    )
+                ),
+                $("<div class='con'>").append(
+                    $("<h1>").text("COMMENT STREAM"),
+                    $("<article>").append(
+                        $("<div>").append(
+                            $("<h2>").text("SCARLETT").append(
+                                $("<span>").text("JOHANSSON")
+                            )
+                        ),
+                        $("<p>").text("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis quia accusamus veniam vitae reprehenderit eveniet illo saepe iure similique ex."),
+                        $("<span>").text("Lorem ipsum dolor sit")
+                    ),
+                    $("<article>").append(
+                        $("<div>").append(
+                            $("<h2>").text("SCARLETT").append(
+                                $("<span>").text("JOHANSSON")
+                            )
+                        ),
+                        $("<p>").text("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis quia accusamus veniam vitae reprehenderit eveniet illo saepe iure similique ex."),
+                        $("<span>").text("Lorem ipsum dolor sit")
+                    ),
+                    $("<textarea placeholder='Type your comment..'>"),
+                    $("<input type='submit' value='SEND'>"),
+                    $("<span class='reset'>")
+                ),
+                $("<span class='close'>").text("CLOSE")
+            )
+        )
+    )
 });
 
 $("html, body").on("click", ".close", function(){
