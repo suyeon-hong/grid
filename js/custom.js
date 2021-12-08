@@ -72,8 +72,8 @@ picBox.on("click", function(){
                     $("<article>").append(
                         $("<div>").append(
                             ("<img src='img/icon1.png'>"),
-                            $("<h2>").text("SCARLETT").append(
-                                $("<span>").text("JOHANSSON")
+                            $("<h2>").text("RYAN").append(
+                                $("<span>").text("REYNOLDS")
                             )
                         ),
                         $("<p>").text("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis quia accusamus veniam vitae reprehenderit eveniet illo saepe iure similique ex."),
@@ -101,4 +101,5 @@ picBox.on("click", function(){
 
 $("html, body").on("click", ".close", function(){
     $(".pop").remove();
+    $(".pop2").remove();
 });
