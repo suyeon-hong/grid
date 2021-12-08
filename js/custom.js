@@ -71,6 +71,7 @@ picBox.on("click", function(){
                     $("<h1>").text("COMMENT STREAM"),
                     $("<article>").append(
                         $("<div>").append(
+                            ("<img src='img/icon1.png'>"),
                             $("<h2>").text("SCARLETT").append(
                                 $("<span>").text("JOHANSSON")
                             )
@@ -80,6 +81,7 @@ picBox.on("click", function(){
                     ),
                     $("<article>").append(
                         $("<div>").append(
+                            ("<img src='img/icon2.png'>"),
                             $("<h2>").text("SCARLETT").append(
                                 $("<span>").text("JOHANSSON")
                             )
@@ -91,7 +93,7 @@ picBox.on("click", function(){
                     $("<input type='submit' value='SEND'>"),
                     $("<span class='reset'>")
                 ),
-                $("<span class='close'>").text("CLOSE")
+                ("<span class='close'>")
             )
         )
     )
